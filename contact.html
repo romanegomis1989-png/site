@@ -33,24 +33,26 @@
             
             Téléphone : <a href="tel:+33443778229">04 43 77 82 29</a>
         </address>
-        <form>
+
+
+        <form action="envoi_mail.php" method="post">
             <div> 
                 <label for="nom">Nom :</label><br>
-                <input type="text" id="nom" maxlength="70" required />              
+                <input type="text" id="nom" name="nom" maxlength="70" required />              
             </div>
 
             <div>
                 <label for="email">E-mail :</label><br>
-                <input type="email" id="email" maxlength="70" required />
+                <input type="email" id="email" name="email" maxlength="70" required />
             </div>
 
             <div>
                 <label for="sujet">Sujet :</label><br>
-                <input type="text" id="sujet" maxlength="120" required />
+                <input type="text" id="sujet" name="sujet" maxlength="120" required />
             </div>
             <div>
                 <label for="message">Message :</label><br>
-                <textarea id="message" rows="5"></textarea>
+                <textarea id="message" name="message" rows="5" required></textarea>
             </div>
             <div>
                 <button type="submit">Envoyer</button>
