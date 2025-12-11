@@ -1,8 +1,9 @@
 <?php
 $destinataire = "romane.gomis1989@gmail.com";
 $sujet = $POST['sujet'];
-$message = $POST['message'];
-$email = $POST['email'];
+$message = "message de " . $POST['nom'] . " (" . $POST['email'] . ") : " . $POST['message'];
+//$email = $POST['email'];
+//$nom = $POST['nom'];
 if (mail($destinataire, $sujet, $message)) {
     echo "Email envoyé avec succès";
 } else {
