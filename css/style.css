@@ -44,9 +44,19 @@ address {
     width: 25%;
     font-style: normal;
     background: red;
+    padding: 10px;
 }
 
 form {
+    padding: 10px;
     width: 75%;
     background: yellow;
+}
+
+/* #nom, #email, #sujet, #message {
+    width: 80%;
+} */
+
+form input, textarea {
+    width: 80%;
 }
