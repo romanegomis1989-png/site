@@ -37,20 +37,21 @@ nav{
 
 main {
     display: flex;
-    background: green;
+    /* background: green; */
 }
 
 address {
     width: 25%;
     font-style: normal;
-    background: red;
+   /* background: red; */
     padding: 10px;
 }
 
 form {
     padding: 10px;
     width: 75%;
-    background: yellow;
+   /* background: yellow; */
+   border:solid 1px black;
 }
 
 /* #nom, #email, #sujet, #message {
